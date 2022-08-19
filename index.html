@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Hello wolrd</title>
+  </head>
+  <body>
+    <main>
+      <h1 class="title">Calendário interativo</h1>
+      <h3 class="subtitle"></h3>
+      <section>
+        <form>
+          <input type="RADIO" name="OPCAO1" value="op1" /> Sem login
+          <input type="RADIO" name="OPCAO2" value="op2" /> Com login
+
+          <div class="month__box-wrapper">
+            <p>Escolha um mês</p>
+            <select id="select-month">
+              <option value="month" selected></option>
+              <option value="month1">Valor 1</option>
+              <option value="month2">Valor 2</option>
+              <option value="month3">Valor 3</option>
+            </select>
+          </div>
+          <div class="year__box-wrapper">
+            <p>Escolha um ano</p>
+            <select id="select-year">
+              <option value="month" selected></option>
+              <option value="month1">Valor 1</option>
+              <option value="month2">Valor 2</option>
+              <option value="month3">Valor 3</option>
+            </select>
+          </div>
+        </form>
+        <button type="submit">Submeter</button>
+      </section>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
